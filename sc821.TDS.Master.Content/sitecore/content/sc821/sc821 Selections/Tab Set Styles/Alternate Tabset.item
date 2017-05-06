@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {D49A580C-1D18-40AF-80D5-67FD00C23031}
+database: master
+path: /sitecore/content/sc821/sc821 Selections/Tab Set Styles/Alternate Tabset
+parent: {703E3D2F-035D-4D87-B01D-309BFA600282}
+name: Alternate Tabset
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {0B812923-4A0F-4472-BB25-A2D4B10D881E}
+templatekey: List Item
+created: 20170506T134053Z
+
+----field----
+field: {39BC23A7-4842-431A-ACED-F0A15EAB496D}
+name: Value
+key: value
+content-length: 17
+
+alternate-tab-set
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{B40C974B-DF21-4967-9FCB-E7D5B0700450}
+----version----
+language: en
+version: 1
+revision: 6153d830-d6f8-418d-9e69-d6943b1f0c84
+
+----field----
+field: {FF438BF6-9409-45F5-ABEA-CA2049239A0F}
+name: Text
+key: text
+content-length: 17
+
+alternate-tab-set
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170506T134053Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6153d830-d6f8-418d-9e69-d6943b1f0c84
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170506T134053Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

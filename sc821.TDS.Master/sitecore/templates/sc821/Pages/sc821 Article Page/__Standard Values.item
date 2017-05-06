@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {8FC34069-3542-4319-970A-437199476312}
+database: master
+path: /sitecore/templates/sc821/Pages/sc821 Article Page/__Standard Values
+parent: {E7ED5A4D-E5EB-42AE-A17B-45713326E2E7}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {E7ED5A4D-E5EB-42AE-A17B-45713326E2E7}
+templatekey: sc821 Article Page
+created: 20170506T135912Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 116
+
+{C87B4BEB-6EBD-4938-883D-13C0BD3B04A6}|{830D2528-D444-4111-9C63-DFACF1AF876E}|{E7ED5A4D-E5EB-42AE-A17B-45713326E2E7}
+----version----
+language: en
+version: 1
+revision: 728743b5-4d2c-42e2-a05a-c8b553720b68
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170506T135912Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+728743b5-4d2c-42e2-a05a-c8b553720b68
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170506T140139Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

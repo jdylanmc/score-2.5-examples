@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {D659B515-DFE1-42F0-9BD1-B3A64970A51B}
+database: master
+path: /sitecore/content/sc821/sc821 Selections/Carousel Pane Styles/Alternate Carousel Panel
+parent: {B1DA0C2C-2C9E-4368-B2B8-95F16EDE3364}
+name: Alternate Carousel Panel
+master: {208B2F30-C5C9-4ACF-BC67-130A26C0B019}
+template: {0B812923-4A0F-4472-BB25-A2D4B10D881E}
+templatekey: List Item
+created: 20170506T134050Z
+
+----field----
+field: {39BC23A7-4842-431A-ACED-F0A15EAB496D}
+name: Value
+key: value
+content-length: 14
+
+alternate-pane
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{5D5A67DE-A73E-41E7-BD64-C6F08C4CA4D1}
+----version----
+language: en
+version: 1
+revision: d5dd3a99-115f-44ed-9a93-69caffcb38e8
+
+----field----
+field: {FF438BF6-9409-45F5-ABEA-CA2049239A0F}
+name: Text
+key: text
+content-length: 14
+
+alternate-pane
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170506T134050Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5dd3a99-115f-44ed-9a93-69caffcb38e8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170506T134050Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
