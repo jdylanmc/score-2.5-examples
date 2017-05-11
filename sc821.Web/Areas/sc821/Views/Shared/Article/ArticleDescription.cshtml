@@ -1,0 +1,7 @@
+﻿@using Score.BootstrapUI.Web.Extensions
+@model sc821.Web.Areas.sc821.Models.ArticleDescriptionModel
+   
+<div class="@Model.Classes">
+    @Html.Sitecore().FieldWithLabel(Model.ArticleDescriptionField, Model.PageItem)    
+</div>
+

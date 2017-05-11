@@ -1,33 +1,40 @@
 ----item----
 version: 1
-id: {831EA7FA-2578-42B9-8751-1620E97B379B}
+id: {730AF41B-7D78-4F75-9264-98035EBCB7E0}
 database: master
-path: /sitecore/templates/sc821/Feature/Article/Article Base Template/Article Information/Article Date
-parent: {FC8E80E3-B7C9-4755-A0F1-5F4F76BC0C5E}
-name: Article Date
+path: /sitecore/layout/Renderings/sc821/Article/Article Hero
+parent: {4E0FBCAA-B502-491B-8113-7E25DCF00421}
+name: Article Hero
 master: {00000000-0000-0000-0000-000000000000}
-template: {455A3E98-A627-4B40-8035-E683A0331AC7}
-templatekey: Template field
-created: 20170506T135323Z
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20170511T192847Z
 
 ----field----
-field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
-name: Type
-key: type
-content-length: 4
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 52
 
-Date
+/Areas/sc821/Views/Shared/Article/ArticleHero.cshtml
 ----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 3
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 48
 
-100
+/sitecore/layout/Models/sc821/Article Hero Model
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{D191AB49-7616-46CC-B9D9-BA6FC3AA3639}
 ----version----
 language: en
 version: 1
-revision: dc02e388-666e-473a-be6b-1f812cd8417b
+revision: 855e0fc1-6bac-42fc-9ff8-0ec994294e4f
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -42,7 +49,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170506T135323Z
+20170511T192847Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dc02e388-666e-473a-be6b-1f812cd8417b
+855e0fc1-6bac-42fc-9ff8-0ec994294e4f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170511T195543Z
+20170511T193128Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,35 @@
+﻿@using sc821.Custom.Items
+@using Score.BootstrapUI.Web.Extensions
+@model sc821.Web.Areas.sc821.Models.ArticleHeroModel
+
+@using (Html.BeginUXModule("Article/ArticleHero", new
+{
+    IsExperienceEditorEditing = Sitecore.Context.PageMode.IsExperienceEditorEditing,
+    DateFormat = Model.DateFormat,
+    ArticleDate = Model.ArticleDate,
+    Language = Sitecore.Context.Language.CultureInfo.ToString()
+},
+    new {@class = Model.Classes + " score-hero"}))
+{
+
+
+        <h1 class="article-title">
+            @Html.Sitecore().FieldWithLabel(ArticlePageBase.Fields.ArticleTitle, Model.PageItem)
+        </h1>
+        <h2 class="article-type">
+            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+            {
+                @Html.Sitecore().FieldWithLabel(ArticlePageBase.Fields.ArticleType, Model.PageItem, new {Display = "@name"})
+            }
+            else
+            {
+                @Model.ArticleType
+            }
+        </h2>
+        <div class="score-hero-body">
+            <p>
+                Article Date goes here
+            </p>
+        </div>
+   
+}

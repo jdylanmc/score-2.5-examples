@@ -1,33 +1,19 @@
 ----item----
 version: 1
-id: {831EA7FA-2578-42B9-8751-1620E97B379B}
+id: {728B09C4-481B-4B44-8D86-7E4D018AE37E}
 database: master
-path: /sitecore/templates/sc821/Feature/Article/Article Base Template/Article Information/Article Date
-parent: {FC8E80E3-B7C9-4755-A0F1-5F4F76BC0C5E}
-name: Article Date
+path: /sitecore/content/sc821/Content
+parent: {90E2367E-CBEC-442A-9E6C-E761B3289271}
+name: Content
 master: {00000000-0000-0000-0000-000000000000}
-template: {455A3E98-A627-4B40-8035-E683A0331AC7}
-templatekey: Template field
-created: 20170506T135323Z
+template: {0A122790-CCAF-416B-85C8-952B04E7AE67}
+templatekey: Site Shared Content Folder
+created: 20170509T142543Z
 
-----field----
-field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
-name: Type
-key: type
-content-length: 4
-
-Date
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 3
-
-100
 ----version----
 language: en
 version: 1
-revision: dc02e388-666e-473a-be6b-1f812cd8417b
+revision: cf63768c-06fd-4e8e-a18f-fa9b8dc0336f
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -42,7 +28,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170506T135323Z
+20170509T142543Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dc02e388-666e-473a-be6b-1f812cd8417b
+cf63768c-06fd-4e8e-a18f-fa9b8dc0336f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170511T195543Z
+20170509T142543Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

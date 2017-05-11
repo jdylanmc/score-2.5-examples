@@ -1,33 +1,26 @@
 ----item----
 version: 1
-id: {831EA7FA-2578-42B9-8751-1620E97B379B}
+id: {76D71ACF-828A-4451-BE32-D55F3115193D}
 database: master
-path: /sitecore/templates/sc821/Feature/Article/Article Base Template/Article Information/Article Date
-parent: {FC8E80E3-B7C9-4755-A0F1-5F4F76BC0C5E}
-name: Article Date
-master: {00000000-0000-0000-0000-000000000000}
-template: {455A3E98-A627-4B40-8035-E683A0331AC7}
-templatekey: Template field
-created: 20170506T135323Z
+path: /sitecore/templates/sc821/Pages/sc821 Article Page/__Standard Values/Tiles/Featured Article/Content
+parent: {205CC99D-FDDE-4788-B429-FB2C5735234D}
+name: Content
+master: {BBE73E97-BBD5-4446-817B-A53D96D4C6D6}
+template: {55BEA852-8F70-4F68-AAFB-F2130FD133D1}
+templatekey: Page Content Folder
+created: 20170509T141330Z
 
 ----field----
-field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
-name: Type
-key: type
-content-length: 4
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
 
-Date
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 3
-
-100
+{6DFBDF49-0D89-4608-B01A-BF7D89E8B4D5}
 ----version----
 language: en
 version: 1
-revision: dc02e388-666e-473a-be6b-1f812cd8417b
+revision: d19c16fd-f7d7-4eea-b158-c2e5928378ab
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -42,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170506T135323Z
+20170506T134046Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dc02e388-666e-473a-be6b-1f812cd8417b
+d19c16fd-f7d7-4eea-b158-c2e5928378ab
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170511T195543Z
+20170506T134046Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

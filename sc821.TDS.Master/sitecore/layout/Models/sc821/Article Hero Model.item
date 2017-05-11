@@ -1,33 +1,26 @@
 ----item----
 version: 1
-id: {831EA7FA-2578-42B9-8751-1620E97B379B}
+id: {6A6D9E7D-3A6C-40CB-83C1-29C839E6AFD7}
 database: master
-path: /sitecore/templates/sc821/Feature/Article/Article Base Template/Article Information/Article Date
-parent: {FC8E80E3-B7C9-4755-A0F1-5F4F76BC0C5E}
-name: Article Date
+path: /sitecore/layout/Models/sc821/Article Hero Model
+parent: {99F52667-EF37-4E82-8FE7-A97038614061}
+name: Article Hero Model
 master: {00000000-0000-0000-0000-000000000000}
-template: {455A3E98-A627-4B40-8035-E683A0331AC7}
-templatekey: Template field
-created: 20170506T135323Z
+template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
+templatekey: Model
+created: 20170511T192922Z
 
 ----field----
-field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
-name: Type
-key: type
-content-length: 4
+field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
+name: Model Type
+key: model type
+content-length: 56
 
-Date
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 3
-
-100
+sc821.Web.Areas.sc821.Models.ArticleHeroModel, sc821.Web
 ----version----
 language: en
 version: 1
-revision: dc02e388-666e-473a-be6b-1f812cd8417b
+revision: 3419881a-6ab7-4a32-9139-cabf92259ce6
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -42,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170506T135323Z
+20170509T150357Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dc02e388-666e-473a-be6b-1f812cd8417b
+3419881a-6ab7-4a32-9139-cabf92259ce6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170511T195543Z
+20170511T192928Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {F8A4D764-E23B-41FC-8E31-ACC0716D61CF}
+database: master
+path: /sitecore/content/sc821/home/Content/Search/Search Results
+parent: {891CBB15-0D27-433A-B755-A041D0A6F549}
+name: Search Results
+master: {00000000-0000-0000-0000-000000000000}
+template: {909334EE-EE7F-4AA2-9990-1D13053E3F40}
+templatekey: Search Results
+created: 20170510T152903Z
+
+----version----
+language: en
+version: 1
+revision: 1bdc7e72-4887-4290-aad4-7766f6a3e74c
+
+----field----
+field: {CE604E84-D4C3-4874-9D21-1C23356F49CD}
+name: Number Of Results Label Text
+key: number of results label text
+content-length: 15
+
+Found # results
+----field----
+field: {148C2ED6-9FCE-44C7-AF46-BF243891CF83}
+name: Search Service Unavailable Message
+key: search service unavailable message
+content-length: 106
+
+An error has occurred and the search service is currently unavailable.
+We apologize for the inconvenience.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170510T152903Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1bdc7e72-4887-4290-aad4-7766f6a3e74c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170510T153044Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
