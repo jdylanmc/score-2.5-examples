@@ -1,12 +1,12 @@
-﻿define(["jquery"], function ($) {
+﻿define(["jquery", "moment"], function ($, moment) {
     "use strict";
 
     function ArticleHero(scope, dateFormat, date, language) {
-        console.log("Article hero here, I have these things");
-        console.log(scope);
-        console.log(dateFormat);
-        console.log(date);
-        console.log(language);
+        moment.locale(language);
+        var displayDate = moment(date).format(dateFormat);
+
+
+        $(".article-date", scope).html(displayDate);
     }
 
     return function initArticleHero(args) {

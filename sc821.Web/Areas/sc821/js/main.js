@@ -3,9 +3,10 @@ define([
     "underscore",
     "score_ccf/ModuleLoader",
     "scorebootstrap",
+    "eventManager",
     "matchHeight"
 ],
-function ($, _, moduleLoader, scorebootstrap) {
+function ($, _, moduleLoader, scorebootstrap, eventManager) {
     "use strict";
 
     //prevents dropdown from closing when clicked inside
@@ -25,5 +26,11 @@ function ($, _, moduleLoader, scorebootstrap) {
 
     moduleLoader.loadPendingModules().done(function() {
         // anything that neeeds to run globally when all modules are loaded goes here
+    });
+
+    eventManager.subscribe("search-rendered", function(args) {
+        console.log("Hello from main.js");
+        console.log(args);
+        moduleLoader.loadPendingModules();
     });
 });

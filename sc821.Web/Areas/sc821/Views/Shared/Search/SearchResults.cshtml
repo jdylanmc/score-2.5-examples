@@ -1,0 +1,107 @@
+﻿@using Score.BootstrapUI.Web.Areas.ScoreBootstrapUI
+@using Score.BootstrapUI.Web.Extensions
+@using Score.UI.Data.DatasourceItems.ContentSearch
+@model Score.BootstrapUI.Web.Areas.ScoreBootstrapUI.Models.ContentSearch.SearchResultsRenderingModel
+
+@{
+    var isEditing = Score.Data.Utils.ExperienceEditorMode.IsEditorEditing;
+    var hiddenStyle = isEditing ? string.Empty : "display:none";
+    Model.Classes.Add("js-hide-on-load");
+}
+
+@Html.ExperienceEditorWarning(x => !x.RenderingParameters.RefreshActionMessages.Any(),
+    "If using together with the Facet Container component, this component needs a \"Refresh on..\" message to function correctly. Please edit component properties.")
+
+
+@using (Html.BeginUXModule("Search/SearchResults",
+    new
+    {
+        Score.Data.Utils.ExperienceEditorMode.IsEditorEditing,
+        UniqueId = Model.Rendering.UniqueId.ToString(),
+        Model.RenderingParameters.RefreshActionMessages
+    },
+    new { @class = Model.Classes }))
+{
+    if (!isEditing)
+    {
+        using (Html.BeginUXModule(
+           Model.SearchClientModule,
+            new
+            {
+                Score.Data.Utils.ExperienceEditorMode.IsEditorEditing,
+                Model.RenderingParameters.RefreshActionMessages,
+                Model.RenderingParameters.PerPage,
+                Model.RenderingParameters.TileName,
+                Model.SearchRoot,
+                Model.UniqueId,
+                Model.Language,
+                Model.Templates,
+                Model.IndexName,
+                SearchApiUrl = ScoreBootstrapUIAreaRegistration.GetSearchApiUrl(this.Url),
+                Model.SearchFlags
+            },
+            new { @class = "score-search-client" }))
+        {
+            <span></span>
+        }
+    }
+    <h1>hello world</h1>
+    <!-- ERROR MESSAGES -->
+    <div class="score-no-search-results" data-bind="visible: (numberOfResults() < 1 && serviceUnavailable() === false)">
+        @if (isEditing)
+        {
+            @Html.Sitecore().FieldWithLabel(SearchResultsItem.NoSearchResultsTextFieldName)
+        }
+        else if (!Model.IsNoSearchResultsTextEmpty)
+        {
+            @Model.NoSearchResultMessage(@<span data-bind="text: query"></span>)
+        }
+    </div>
+    <div class="score-search-service-unavailable" data-bind="visible: serviceUnavailable() === true" style="@hiddenStyle">
+        @Html.Sitecore().FieldWithLabel(SearchResultsItem.ServiceUnavailableMessageFieldName)
+    </div>
+
+    <div class="score-search-results-header" data-bind="visible: (numberOfResults() > 0 && serviceUnavailable() === false)" style="@hiddenStyle">
+        <!-- # OF RESULTS -->
+        @if (isEditing || !Model.IsNumberOfResultsLabelEmpty)
+        {
+            <div class="displaying-results">
+                @if (isEditing)
+                {
+                    @Html.Sitecore().FieldWithLabel(SearchResultsItem.NumberOfResultsLabelTextFieldName)
+                }
+                else
+                {
+                    @Model.NumberOfResultsLabel(@<span data-bind="text: numberOfResults"></span>)
+                }
+            </div>
+        }
+    </div>
+
+    <div class="score-tile-grid">
+        <ul class="search-results-list js-search-results" data-bind="foreach: results">
+            @if (isEditing)
+            {
+                var img = this.Model.RenderingParameters.ClassSelection == "four-column" ? "tile_placeholder" : "tile_typeahead";
+                for (var i = 0; i < Model.RenderingParameters.PerPage; i++)
+                {
+                    <li>
+                        <img src="@Url.Content("~/Areas/ScoreBootstrapUI/images/placeholders/" + img + ".png")"
+                             alt="@Translate.Text("Tile placeholder for a search result item")"/>
+                    </li>
+                }
+            }
+            else
+            {
+                <li data-bind="domElement: $data.element, html: $data.tileHtml"></li>
+            }
+        </ul>
+
+        @Html.Sitecore().DynamicPlaceholder("Promo Tiles")
+    </div>
+
+    <div class="score-button show-more" data-bind="click: showMore, visible: canShowMore()">
+        @Html.Sitecore().Field(SearchResultsItem.ShowMoreLabelTextFieldName)
+    </div>
+
+}

@@ -19,7 +19,7 @@ namespace sc821.Web.Areas.sc821.Models
 
         public string DateFormat
         {
-            get { return "MMM, Do YYYY"; } // DateSettings.FindDateSettings().DateFormat; }
+            get { return "dddd, MMMM Do YYYY"; } // DateSettings.FindDateSettings().DateFormat; }
         }
 
         public string ArticleType

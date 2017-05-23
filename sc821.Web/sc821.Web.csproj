@@ -190,6 +190,7 @@
     <Content Include="Areas\sc821\js\Article\ArticleHero.js" />
     <Content Include="Areas\sc821\js\main.js" />
     <Content Include="Areas\sc821\js\require.config.js" />
+    <Content Include="Areas\sc821\js\Search\SearchResults.js" />
     <Content Include="Areas\sc821\js\Vendor\modernizr.2.6.2.min.js" />
     <Content Include="Areas\sc821\Views\Web.config" />
   </ItemGroup>
@@ -333,6 +334,7 @@
     <Content Include="packages.config" />
     <Content Include="Areas\sc821\Views\Shared\Article\ArticleDescription.cshtml" />
     <Content Include="Areas\sc821\Views\Shared\Article\ArticleHero.cshtml" />
+    <Content Include="Areas\sc821\Views\Shared\Search\SearchResults.cshtml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

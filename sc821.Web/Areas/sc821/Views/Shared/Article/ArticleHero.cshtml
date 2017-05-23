@@ -23,12 +23,16 @@
             }
             else
             {
-                @Model.ArticleType
+                @*@Model.ArticleType*@
+                <p>todo: article type</p>
             }
         </h2>
         <div class="score-hero-body">
-            <p>
-                Article Date goes here
+            <p class="article-date">
+                @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                {
+                    @Html.Sitecore().FieldWithLabel(ArticlePageBase.Fields.ArticleDate, Model.PageItem)
+                }
             </p>
         </div>
    
