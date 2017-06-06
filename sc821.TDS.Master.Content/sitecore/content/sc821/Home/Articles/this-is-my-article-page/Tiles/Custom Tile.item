@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {4F6187CE-4E23-4409-8363-00271A1C904F}
+database: master
+path: /sitecore/content/sc821/home/articles/this-is-my-article-page/Tiles/Custom Tile
+parent: {53E8203E-66F9-465D-AEED-3C4EA0296927}
+name: Custom Tile
+master: {00000000-0000-0000-0000-000000000000}
+template: {DDBB340F-65AB-460D-A41F-EFE4AC9F5C52}
+templatekey: sc821 Snippet
+created: 20170517T142405Z
+
+----version----
+language: en
+version: 1
+revision: 45250c14-90e1-4702-9acf-73187c450879
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170517T142405Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+45250c14-90e1-4702-9acf-73187c450879
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170517T142405Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

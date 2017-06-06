@@ -1,19 +1,19 @@
 ----item----
 version: 1
-id: {A76EB28A-684F-47A3-B9FC-68AFC1C6446A}
+id: {0C0F53D3-C341-4EEF-A55A-1822806EA3BC}
 database: master
-path: /sitecore/content/sc821/home/Content/Featured Page Tile/Featured Page Tile
+path: /sitecore/content/sc821/home/Content/Featured Page Tile/Featured Page Tile 1
 parent: {10794944-DD12-42AD-BF4E-1E0619AEECEB}
-name: Featured Page Tile
+name: Featured Page Tile 1
 master: {00000000-0000-0000-0000-000000000000}
 template: {1A4214E9-C3F8-416E-8E03-A95A70A5E7C6}
 templatekey: Featured Page Tile
-created: 20170509T142546Z
+created: 20170518T185402Z
 
 ----version----
 language: en
 version: 1
-revision: ba6c5a2f-0257-4f68-b529-bad429a308a7
+revision: 7849df6d-ffc9-4509-bc54-ccc209a693b0
 
 ----field----
 field: {6DE61BDB-A2F1-4CE4-8CF8-E3FBB055C565}
@@ -21,7 +21,7 @@ name: Featured Page
 key: featured page
 content-length: 90
 
-<tile targetPageId="{ABEADC9F-EBD7-4651-8014-91FBF14E246E}" tileName="Featured Article" />
+<tile targetPageId="{23A15425-E49A-4DAB-9044-19F59A74FB5A}" tileName="Featured Article" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170509T142546Z
+20170518T185402Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ba6c5a2f-0257-4f68-b529-bad429a308a7
+7849df6d-ffc9-4509-bc54-ccc209a693b0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170523T183252Z
+20170518T185415Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {FA001E9F-455D-4211-B81C-70B69E1BBC46}
+database: master
+path: /sitecore/templates/sc821/Foundation/Page Content/Page Content Rendering Parameters/Page Field
+parent: {D52FD51B-CD83-448E-91B1-C0603B366B7D}
+name: Page Field
+master: {00000000-0000-0000-0000-000000000000}
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+created: 20170606T121640Z
+
+----version----
+language: en
+version: 1
+revision: 075fb6fc-7b2a-4241-86d3-087a48b9f9ee
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170606T121640Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+075fb6fc-7b2a-4241-86d3-087a48b9f9ee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170606T121640Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

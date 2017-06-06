@@ -1,0 +1,22 @@
+﻿@using Score.BootstrapUI.Web.Extensions
+@model sc821.Web.Areas.sc821.Models.PageContentModel
+
+@if (Model.Initialized)
+{
+    var openingTag = string.Format("<{0} class='{1}'>", Model.Markup, Model.Classes);
+    var closingTag = string.Format("</{0}>", Model.Markup);
+
+    @Html.Raw(@openingTag)
+    @Html.Sitecore().FieldWithLabel(Model.Field)
+    @Html.Raw(@closingTag)
+}
+else
+{
+    if (Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        <div class="alert alert-warning" role="alert">
+            <strong>Warning:</strong>
+                Please configure this component via Rendering Parameters
+        </div>
+    }
+}

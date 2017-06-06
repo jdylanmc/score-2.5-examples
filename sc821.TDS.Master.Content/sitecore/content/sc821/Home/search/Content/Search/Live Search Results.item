@@ -1,27 +1,42 @@
 ----item----
 version: 1
-id: {A76EB28A-684F-47A3-B9FC-68AFC1C6446A}
+id: {15FC2887-24B8-4D86-B3E0-202CD4032496}
 database: master
-path: /sitecore/content/sc821/home/Content/Featured Page Tile/Featured Page Tile
-parent: {10794944-DD12-42AD-BF4E-1E0619AEECEB}
-name: Featured Page Tile
+path: /sitecore/content/sc821/home/search/Content/Search/Live Search Results
+parent: {D8DBBA5B-C0C2-45F7-8750-262DFAFB4551}
+name: Live Search Results
 master: {00000000-0000-0000-0000-000000000000}
-template: {1A4214E9-C3F8-416E-8E03-A95A70A5E7C6}
-templatekey: Featured Page Tile
-created: 20170509T142546Z
+template: {909334EE-EE7F-4AA2-9990-1D13053E3F40}
+templatekey: Search Results
+created: 20170605T173713Z
 
 ----version----
 language: en
 version: 1
-revision: ba6c5a2f-0257-4f68-b529-bad429a308a7
+revision: f027631d-a473-476a-a15b-ec84f75e47b8
 
 ----field----
-field: {6DE61BDB-A2F1-4CE4-8CF8-E3FBB055C565}
-name: Featured Page
-key: featured page
-content-length: 90
+field: {CE604E84-D4C3-4874-9D21-1C23356F49CD}
+name: Number Of Results Label Text
+key: number of results label text
+content-length: 9
 
-<tile targetPageId="{ABEADC9F-EBD7-4651-8014-91FBF14E246E}" tileName="Featured Article" />
+# Results
+----field----
+field: {045323EE-91B7-4152-8AED-0FBB0E3C4450}
+name: Show More Label Text
+key: show more label text
+content-length: 13
+
+[ LOAD MORE ]
+----field----
+field: {148C2ED6-9FCE-44C7-AF46-BF243891CF83}
+name: Search Service Unavailable Message
+key: search service unavailable message
+content-length: 106
+
+An error has occurred and the search service is currently unavailable.
+We apologize for the inconvenience.
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +50,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170509T142546Z
+20170605T173713Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +64,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ba6c5a2f-0257-4f68-b529-bad429a308a7
+f027631d-a473-476a-a15b-ec84f75e47b8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170523T183252Z
+20170605T173745Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -173,6 +173,7 @@
   <ItemGroup>
     <Compile Include="Areas\sc821\Models\ArticleHeroModel.cs" />
     <Compile Include="Areas\sc821\Models\ArticleDescriptionModel.cs" />
+    <Compile Include="Areas\sc821\Models\PageContentModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Areas\sc821\sc821AreaRegistration.cs" />
   </ItemGroup>
@@ -192,6 +193,7 @@
     <Content Include="Areas\sc821\js\require.config.js" />
     <Content Include="Areas\sc821\js\Search\SearchResults.js" />
     <Content Include="Areas\sc821\js\Vendor\modernizr.2.6.2.min.js" />
+    <Content Include="Areas\sc821\Views\Shared\PageContent\PageContent.cshtml" />
     <Content Include="Areas\sc821\Views\Web.config" />
   </ItemGroup>
   <ItemGroup>

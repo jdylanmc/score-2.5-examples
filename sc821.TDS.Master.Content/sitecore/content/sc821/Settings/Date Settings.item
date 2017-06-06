@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {ACC8DF8E-C559-4F41-B498-BECF9B5452A0}
+database: master
+path: /sitecore/content/sc821/Settings/Date Settings
+parent: {0961386D-DECD-4555-9E99-A0194AC34E2C}
+name: Date Settings
+master: {00000000-0000-0000-0000-000000000000}
+template: {10A1C72C-7AA6-4C5D-BB29-48D1F96661E6}
+templatekey: Date Settings
+created: 20170511T201924Z
+
+----version----
+language: en
+version: 1
+revision: 3145ca89-18aa-4220-8850-b07e4ba7dc6a
+
+----field----
+field: {EEF7EA59-F20B-494E-B14C-8DA5B0B4F516}
+name: Date Format
+key: date format
+content-length: 13
+
+MMMM, Do YYYY
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170511T201924Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3145ca89-18aa-4220-8850-b07e4ba7dc6a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170511T201955Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {B54559AD-DEAE-427B-8D36-E534974C98AC}
+database: master
+path: /sitecore/content/sc821/home/articles/french-page
+parent: {85A14B6D-EF81-4D28-950E-31E47AD715E6}
+name: french-page
+master: {00000000-0000-0000-0000-000000000000}
+template: {E7ED5A4D-E5EB-42AE-A17B-45713326E2E7}
+templatekey: sc821 Article Page
+created: 20170515T153437Z
+
+----version----
+language: en
+version: 1
+revision: f817a2e8-fc05-40af-a577-f89a7400e185
+
+----field----
+field: {E390D865-EFF8-4E4C-8E0E-9E50142D982E}
+name: Article Title
+key: article title
+content-length: 11
+
+french-page
+----field----
+field: {4FC1CABF-F32B-428C-8C01-5C306C9EBBDB}
+name: Page Title
+key: page title
+content-length: 11
+
+french-page
+----field----
+field: {199BAD57-CE40-46C1-A8EA-054F3C4C4117}
+name: Open Graph Page Title
+key: open graph page title
+content-length: 11
+
+french-page
+----field----
+field: {5F2ED4E4-5B3E-4B26-87D9-E095A6E8E70D}
+name: Meta Description
+key: meta description
+content-length: 11
+
+french-page
+----field----
+field: {4D3DCA3F-59C0-4F7A-886E-277AD66B568A}
+name: Default Title
+key: default title
+content-length: 11
+
+french-page
+----field----
+field: {3DB7BD0B-626C-4F94-8321-EFC40C45C0D6}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 11
+
+french-page
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170515T153437Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f817a2e8-fc05-40af-a577-f89a7400e185
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170515T153437Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

@@ -1,27 +1,20 @@
 ----item----
 version: 1
-id: {A76EB28A-684F-47A3-B9FC-68AFC1C6446A}
+id: {A7FEEA1D-C02E-4190-9C83-E506BE7CCDC3}
 database: master
-path: /sitecore/content/sc821/home/Content/Featured Page Tile/Featured Page Tile
-parent: {10794944-DD12-42AD-BF4E-1E0619AEECEB}
-name: Featured Page Tile
+path: /sitecore/content/sc821/home/Content/Search/Live Search Results
+parent: {891CBB15-0D27-433A-B755-A041D0A6F549}
+name: Live Search Results
 master: {00000000-0000-0000-0000-000000000000}
-template: {1A4214E9-C3F8-416E-8E03-A95A70A5E7C6}
-templatekey: Featured Page Tile
-created: 20170509T142546Z
+template: {909334EE-EE7F-4AA2-9990-1D13053E3F40}
+templatekey: Search Results
+created: 20170523T184026Z
 
 ----version----
 language: en
 version: 1
-revision: ba6c5a2f-0257-4f68-b529-bad429a308a7
+revision: d33d85d0-868e-4c9b-8075-2ac012799054
 
-----field----
-field: {6DE61BDB-A2F1-4CE4-8CF8-E3FBB055C565}
-name: Featured Page
-key: featured page
-content-length: 90
-
-<tile targetPageId="{ABEADC9F-EBD7-4651-8014-91FBF14E246E}" tileName="Featured Article" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +28,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170509T142546Z
+20170523T184026Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ba6c5a2f-0257-4f68-b529-bad429a308a7
+d33d85d0-868e-4c9b-8075-2ac012799054
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170523T183252Z
+20170523T184026Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -64,10 +57,3 @@ key: __updated by
 content-length: 14
 
 sitecore\Admin
-----field----
-field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
-name: __Lock
-key: __lock
-content-length: 5
-
-<r />
