@@ -7,7 +7,7 @@
     var closingTag = string.Format("</{0}>", Model.Markup);
 
     @Html.Raw(@openingTag)
-    @Html.Sitecore().FieldWithLabel(Model.Field)
+    @Html.Sitecore().FieldWithLabel(Model.Field, Model.PageItem)
     @Html.Raw(@closingTag)
 }
 else

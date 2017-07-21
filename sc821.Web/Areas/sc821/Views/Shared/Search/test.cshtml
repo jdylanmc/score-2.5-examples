@@ -1,0 +1,10 @@
+﻿@model Score.UI.Web.Areas.ScoreUI.Models.RenderingModelBase
+
+@using (Html.BeginUXModule("Search/Sort", new
+{
+    Something = "Test"
+},
+    new { @class = Model.Classes }))
+{
+    <button class="btn">Click here plz</button>
+}

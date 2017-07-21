@@ -101,6 +101,7 @@
     <None Include="ALL\App_Config\Include\sc821\LinkProvider.config" />
     <None Include="ALL\App_Config\Include\sc821\MailServer.config" />
     <None Include="ALL\App_Config\Include\sc821\MediaSettings.config" />
+    <None Include="ALL\App_Config\Include\sc821\Pipelines.config" />
     <None Include="ALL\App_Config\Include\sc821\Settings.config" />
     <None Include="ALL\App_Config\Include\sc821\Sites.config" />
     <None Include="INT-Single\App_Config\Include\sc821\Sites.Environment.config" />
